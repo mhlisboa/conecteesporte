@@ -3,6 +3,7 @@ import AppNavigator from "./src/navigation/AppNavigator";
 import { AuthProvider } from "./src/provider/AuthProvider";
 import { ThemeProvider } from "react-native-rapi-ui";
 import { LogBox } from "react-native";
+import { StatusBar } from 'expo-status-bar';
 
 export default function App(props) {
   const images = [

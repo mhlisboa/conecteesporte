@@ -15,6 +15,7 @@ import {
   useTheme,
   themeColor,
 } from "react-native-rapi-ui";
+import { StatusBar } from 'expo-status-bar';
 
 export default function ({ navigation }) {
   const { isDarkmode, setTheme } = useTheme();
@@ -44,7 +45,7 @@ export default function ({ navigation }) {
           contentContainerStyle={{
             flexGrow: 1,
           }}
-        >
+        >   
           <View
             style={{
               flex: 1,
@@ -176,6 +177,7 @@ export default function ({ navigation }) {
                   fontWeight="bold"
                   style={{
                     marginLeft: 5,
+                    
                   }}
                 >
                   {isDarkmode ? "☀️ Tema claro" : "🌑 Tema escuro"}
@@ -184,6 +186,7 @@ export default function ({ navigation }) {
             </View>
           </View>
         </ScrollView>
+        <StatusBar style="light"/>
       </Layout>
     </KeyboardAvoidingView>
   );

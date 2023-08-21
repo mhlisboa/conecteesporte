@@ -78,12 +78,12 @@ export default function ({ navigation }) {
                 padding: 30,
               }}
             >
-              Register
+              Cadastre-se
             </Text>
             <Text>Email</Text>
             <TextInput
               containerStyle={{ marginTop: 15 }}
-              placeholder="Enter your email"
+              placeholder="Digite seu email"
               value={email}
               autoCapitalize="none"
               autoCompleteType="off"
@@ -92,10 +92,10 @@ export default function ({ navigation }) {
               onChangeText={(text) => setEmail(text)}
             />
 
-            <Text style={{ marginTop: 15 }}>Password</Text>
+            <Text style={{ marginTop: 15 }}>Senha</Text>
             <TextInput
               containerStyle={{ marginTop: 15 }}
-              placeholder="Enter your password"
+              placeholder="Digite sua senha"
               value={password}
               autoCapitalize="none"
               autoCompleteType="off"
@@ -104,7 +104,7 @@ export default function ({ navigation }) {
               onChangeText={(text) => setPassword(text)}
             />
             <Button
-              text={loading ? "Loading" : "Create an account"}
+              text={loading ? "Carregando" : "Criar uma conta"}
               onPress={() => {
                 register();
               }}
@@ -122,7 +122,7 @@ export default function ({ navigation }) {
                 justifyContent: "center",
               }}
             >
-              <Text size="md">Already have an account?</Text>
+              <Text size="md">Já possui uma conta?</Text>
               <TouchableOpacity
                 onPress={() => {
                   navigation.navigate("Login");
@@ -135,7 +135,7 @@ export default function ({ navigation }) {
                     marginLeft: 5,
                   }}
                 >
-                  Login here
+                  Entre aqui
                 </Text>
               </TouchableOpacity>
             </View>

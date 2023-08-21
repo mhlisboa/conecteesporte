@@ -76,7 +76,7 @@ export default function ({ navigation }) {
                 padding: 30,
               }}
             >
-              Forget Password
+              Esqueci a senha
             </Text>
             <Text>Email</Text>
             <TextInput
@@ -108,7 +108,7 @@ export default function ({ navigation }) {
                 justifyContent: "center",
               }}
             >
-              <Text size="md">Already have an account?</Text>
+              <Text size="md">Já possui uma conta?</Text>
               <TouchableOpacity
                 onPress={() => {
                   navigation.navigate("Login");
@@ -121,7 +121,7 @@ export default function ({ navigation }) {
                     marginLeft: 5,
                   }}
                 >
-                  Login here
+                  Entre aqui
                 </Text>
               </TouchableOpacity>
             </View>

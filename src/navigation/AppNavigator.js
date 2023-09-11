@@ -5,8 +5,9 @@ import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import { AuthContext } from "../provider/AuthProvider";
 
 // Main
-import Home from "../screens/Home";
-import SecondScreen from "../screens/SecondScreen";
+import Home from "../screens/Home"
+import Map from "../screens/Map";
+import Favorites from "../screens/Favorites";
 
 // Auth screens
 import Login from "../screens/auth/Login";
@@ -55,7 +56,7 @@ const Main = () => {
       }}
     >
       <MainStack.Screen name="Home" component={Home} />
-      <MainStack.Screen name="SecondScreen" component={SecondScreen} />
+      <MainStack.Screen name="Favoritos" component={Favorites} />
     </MainStack.Navigator>
   );
 };

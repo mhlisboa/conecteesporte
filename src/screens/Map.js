@@ -13,6 +13,7 @@ import {
   TextInput,
 } from "react-native-rapi-ui";
 import MapView from 'react-native-maps';
+import { Marker } from "react-native-maps";
 import { Ionicons } from "@expo/vector-icons";
 
 export default function ({ navigation }) {
@@ -23,13 +24,24 @@ export default function ({ navigation }) {
       <View style={styles.container}>
         <MapView 
           style={styles.map} 
-          initialRegion={{
-            latitude: -22.9064,
-            longitude: -47.0616,
-            latitudeDelta: 0.0922,
-            longitudeDelta: 0.0421,
-          }}  
-        />
+          initialRegion={
+            {
+              latitude: -22.9064,
+              longitude: -47.0616,
+              latitudeDelta: 0.0922,
+              longitudeDelta: 0.0421,
+            }
+          }  
+        >
+          <Marker
+            coordinate={
+              {
+                latitude: -22.875330742029576, 
+                longitude: -47.05985842585342
+              }
+            }
+          />
+        </MapView>
       </View>
       <View style={styles.bottomBar}>
             <TextInput

@@ -20,8 +20,7 @@ export default function ({ navigation }) {
           justifyContent: "center",
         }}
       >
-        {/* This text using ubuntu font */}
-        <Text fontWeight="medium">Ainda não tem nenhum local favorito...</Text>
+        <Text fontWeight="medium">Parece que você ainda não tem nenhum local favorito...</Text>
         <Text fontWeight="medium">Quando tiver, eles aparecerão aqui!</Text>
         
       </View>

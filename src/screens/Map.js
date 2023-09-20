@@ -19,6 +19,9 @@ import { Ionicons } from "@expo/vector-icons";
 export default function ({ navigation }) {
   const { isDarkmode, setTheme } = useTheme();
   const auth = getAuth();
+
+  const locations = require("../../geolocation.json");
+  const count = 0;
   return (
     <Layout>
       <View style={styles.container}>
@@ -36,8 +39,8 @@ export default function ({ navigation }) {
           <Marker
             coordinate={
               {
-                latitude: -22.875330742029576, 
-                longitude: -47.05985842585342
+                latitude: locations[1].latitude, 
+                longitude: locations[1].longitude
               }
             }
           />

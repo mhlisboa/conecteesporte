@@ -1,45 +1,45 @@
 {
-	"01": {
+	"1": {
         "nome": "Parque Portugal - Taquaral",
-        "latitude": "-22.875330742029576", 
-        "longitude": "-47.05985842585342"
+        "latitude": -22.875330742029576, 
+        "longitude": -47.05985842585342
     },
-	"02": {
+	"2": {
         "nome": "Praça de Esportes - Dr. Roberto Angelo Barbosa",
-        "latitude": "-22.87287042298422", 
-        "longitude": "-47.02741735672322"
+        "latitude": -22.87287042298422, 
+        "longitude": -47.02741735672322
     },
-	"03": {
+	"3": {
         "nome": "Praça de Esportes - Gilberto Campos Valente",
-        "latitude": "-22.890725301808704",
-        "longitude": "-46.94206691963592"
+        "latitude": -22.890725301808704,
+        "longitude": -46.94206691963592
     },
-	"04": {
+	"4": {
         "nome": "Praça de Esportes - Dr. Carlos Andrade Pinto",
-        "latitude": "-22.889466003130167",
-        "longitude": "-46.97966126100399"
+        "latitude": -22.889466003130167,
+        "longitude": -46.97966126100399
     },
-	"05": {
+	"5": {
         "nome": "Praça de Esportes Benedito do Santo",
         "latitude": "-22.88233433518051",
         "longitude": "-46.97285487634431"
     },
-	"06": {
+	"6": {
         "nome": "Praça de Esportes Dr. Edgar Ariani",
         "latitude": "-22.890881152871643",
         "longitude": "-47.040506632169034"
     },
-	"07": {
+	"7": {
         "nome": "Praça de Esportes - Tancredo Neves",
         "latitude": "-22.939290938206447",
         "longitude": "-47.09735095021387"
     },
-	"08": {
+	"8": {
         "nome": "Parque Ecológico - Luciano do Valle",
         "latitude": "-22.93509510763779",
         "longitude": "-47.12211030517802"
     },
-	"09": {
+	"9": {
         "nome": "Bosque dos Cambarás",
         "latitude": "-22.981411642409125",
         "longitude": "-47.1184870168261"

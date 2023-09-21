@@ -109,9 +109,9 @@ export default function ({ navigation }) {
               onPress={() => {
                 login();
               }}
+              color="#004AAD"
               style={{
                 marginTop: 20,
-                backgroundColor: "#004AAD"
               }}
               disabled={loading}
             />
@@ -180,7 +180,6 @@ export default function ({ navigation }) {
                     
                   }}
                 >
-                  {isDarkmode ? "☀️ Tema claro" : "🌑 Tema escuro"}
                 </Text>
               </TouchableOpacity>
             </View>

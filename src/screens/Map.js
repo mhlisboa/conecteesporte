@@ -17,6 +17,7 @@ import { Marker } from "react-native-maps";
 import { Ionicons } from "@expo/vector-icons";
 const locations = require("../../geolocation.json");
 
+// Função responsável por renderizar todos os marcadores no mapa
 function renderMarkers() {
   let markerList = [];
 
@@ -55,7 +56,10 @@ export default function ({ navigation }) {
             }
           }  
         >
-          {renderMarkers()}
+          {
+            /* Chamando a função para renderizar os marcadores */
+            renderMarkers()
+          }
         </MapView>
       </View>
       <View style={styles.bottomBar}>

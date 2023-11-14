@@ -30,11 +30,18 @@ function renderMarkers() {
             longitude: locations[i].longitude
           }
         }
+        key={locations[i].id}
+        tappable={true}
+        onPress={showLocation(locations[i].id)}
       />
     )
   }
 
   return markerList;
+}
+
+function showLocation(id){
+  
 }
 
 

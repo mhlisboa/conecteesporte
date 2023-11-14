@@ -2,131 +2,157 @@
 	"1": {
         "nome": "Parque Portugal - Taquaral",
         "latitude": -22.875330742029576, 
-        "longitude": -47.05985842585342
+        "longitude": -47.05985842585342,
+        "id": 1
     },
 	"2": {
         "nome": "Praça de Esportes - Dr. Roberto Angelo Barbosa",
         "latitude": -22.87287042298422, 
-        "longitude": -47.02741735672322
+        "longitude": -47.02741735672322,
+        "id": 2
     },
 	"3": {
         "nome": "Praça de Esportes - Gilberto Campos Valente",
         "latitude": -22.890725301808704,
-        "longitude": -46.94206691963592
+        "longitude": -46.94206691963592,
+        "id": 3
     },
 	"4": {
         "nome": "Praça de Esportes - Dr. Carlos Andrade Pinto",
         "latitude": -22.889466003130167,
-        "longitude": -46.97966126100399
+        "longitude": -46.97966126100399,
+        "id": 4
     },
 	"5": {
         "nome": "Praça de Esportes Benedito do Santo",
         "latitude": -22.88233433518051,
-        "longitude": -46.97285487634431
+        "longitude": -46.97285487634431,
+        "id": 5
     },
 	"6": {
         "nome": "Praça de Esportes Dr. Edgar Ariani",
         "latitude": -22.890881152871643,
-        "longitude": -47.040506632169034
+        "longitude": -47.040506632169034,
+        "id": 6
     },
 	"7": {
         "nome": "Praça de Esportes - Tancredo Neves",
         "latitude": -22.939290938206447,
-        "longitude": -47.09735095021387
+        "longitude": -47.09735095021387,
+        "id": 7
     },
 	"8": {
         "nome": "Parque Ecológico - Luciano do Valle",
         "latitude": -22.93509510763779,
-        "longitude": -47.12211030517802
+        "longitude": -47.12211030517802,
+        "id": 8
     },
 	"9": {
         "nome": "Bosque dos Cambarás",
         "latitude": -22.981411642409125,
-        "longitude": -47.1184870168261
+        "longitude": -47.1184870168261,
+        "id": 9
     },
 	"10": {
         "nome": "Centro Esportivo do Trabalhador - Brasil de Oliveira",
         "latitude": -22.9143280106695,
-        "longitude": -47.11320531867323
+        "longitude": -47.11320531867323,
+        "id": 10
     },
 	"11": {
         "nome": "Bosque Ferdinando Tilli",
         "latitude": -22.940810376552506,
-        "longitude": -47.186556245662366
+        "longitude": -47.186556245662366,
+        "id": 11
     },
 	"12": {
         "nome": "Praça de Esportes - Argemiro Roque",
         "latitude": -22.916044691649798,
-        "longitude": -47.076216901487726
+        "longitude": -47.076216901487726,
+        "id": 12
     },
 	"13": {
         "nome": "Praça de Esportes - Pompeo de Vitto",
         "latitude": -22.92793307995848,
-        "longitude": -47.06167877634293
+        "longitude": -47.06167877634293,
+        "id": 13
     },
 	"14": {
         "nome": "Praça de Esportes - Sarkis Salamene",
         "latitude": -22.92611618986317,
-        "longitude": -47.060963445662736
+        "longitude": -47.060963445662736,
+        "id": 14
     },
 	"15": {
         "nome": "Praça de Esportes - Dr. Carlos Grimaldi",
         "latitude": -22.923230482192274,
-        "longitude": -47.08423787449788
+        "longitude": -47.08423787449788,
+        "id": 15
     },
 	"16": {
         "nome": "Praca de Esportes - Olympio Dias Porto",
         "latitude": -22.927161044720005,
-        "longitude": -47.087511461948935
+        "longitude": -47.087511461948935,
+        "id": 16
     },
 	"17": {
         "nome": "Praca de Esportes - Dorival Daniel Waetee",
         "latitude": -22.947445082503346,
-        "longitude": -47.02325044750748
+        "longitude": -47.02325044750748,
+        "id": 17
     },
 	"18": {
         "nome": "Praca de Esportes - Parque Jambeiro",
         "latitude": -22.957274179306193,
-        "longitude": -47.05496827293521
+        "longitude": -47.05496827293521,
+        "id": 18
     },
 	"19": {
         "nome": "Praca de Esportes - Salvador Lombardi Neto",
         "latitude": -22.886690159929362,
-        "longitude": -47.107657241896966
+        "longitude": -47.107657241896966,
+        "id": 19
     },
 	"20": {
         "nome": "Praca de Esportes - José Gentil Franco de Campos",
         "latitude": -22.900382364632083,
-        "longitude": -47.09251925915849
+        "longitude": -47.09251925915849,
+        "id": 20
     },
 	"21": {
         "nome": "Praca de Esportes - Orestes Laércio Aulicínio",
         "latitude": -22.85130776811404,
-        "longitude": -47.10495862065066
+        "longitude": -47.10495862065066,
+        "id": 21
     },
 	"22": {
         "nome": "Centro De Convivência -  Vila Boa Vista José Moreira",
         "latitude": -22.88840563961814,
-        "longitude": -47.12231296010482
+        "longitude": -47.12231296010482,
+        "id": 22
     },
 	"23": {
         "nome": "Bosque dos Alemães",
         "latitude": -22.88998383194793,
-        "longitude": -47.06851120333368
+        "longitude": -47.06851120333368,
+        "id": 23
     },
 	"24": {
         "nome": "Bosque Augusto Ruschi",
         "latitude": -22.977435182593922,
-        "longitude": -47.14491890333144
+        "longitude": -47.14491890333144,
+        "id": 24
     },
 	"25": {
         "nome": "Bosque Dos Artistas",
         "latitude": -22.927885955099597,
-        "longitude": -47.03983996100274
+        "longitude": -47.03983996100274,
+        "id": 25
     },
 	"26": {
         "nome": "Bosque Chico Mendes",
         "latitude": -22.854525034824434,
-        "longitude": -47.03112453216984
+        "longitude": -47.03112453216984,
+        "id": 26
     }
 }

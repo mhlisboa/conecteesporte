@@ -31,8 +31,6 @@ function renderMarkers() {
           }
         }
         key={locations[i].id}
-        tappable={true}
-        onPress={showLocation(locations[i].id)}
       />
     )
   }
@@ -41,7 +39,7 @@ function renderMarkers() {
 }
 
 function showLocation(id){
-  
+  console.log("clicou no id: " + id);
 }
 
 
@@ -69,15 +67,6 @@ export default function ({ navigation }) {
           }
         </MapView>
       </View>
-      <View style={styles.bottomBar}>
-            <TextInput
-              placeholder="Pesquisar"
-              leftContent={
-                <Ionicons name="search" size={20} color={themeColor.gray300} />
-              }
-              borderRadius={20}
-            />
-      </View>
     </Layout>
   );
 }
@@ -92,17 +81,7 @@ const styles = StyleSheet.create({
 
   map: {
     width: '100%',
-    height: '110%',
-  },
-
-  bottomBar: {
-    backgroundColor: "#004AAD",
-    height: 120,
-    borderTopLeftRadius: 30,
-    borderTopRightRadius: 30,
-    padding: 35,
-    alignItems: "center",
-    width: "100%",
+    height: '100%',
   },
 
   topBar: {

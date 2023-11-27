@@ -12,7 +12,6 @@ export default function ({ navigation }) {
     return (
         <Drawer.Navigator>
             <Drawer.Screen name="Mapa" component={Map}/>
-            <Drawer.Screen name="Locais favoritos" component={Favorites}/>
         </Drawer.Navigator>
     );
 }
